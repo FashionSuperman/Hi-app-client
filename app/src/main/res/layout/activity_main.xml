@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="superman.fashion.cn.hi.MainActivity">
+
+    <superman.fashion.cn.hi.ui.TopTool
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true">
+    </superman.fashion.cn.hi.ui.TopTool>
+
+    <superman.fashion.cn.hi.ui.BottomTool
+        android:id="@+id/bottom_tool"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </superman.fashion.cn.hi.ui.BottomTool>
+
+
+
+    <TextView
+        android:id="@+id/testText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</RelativeLayout>
